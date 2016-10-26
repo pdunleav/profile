@@ -1,0 +1,110 @@
+/* Here goes your CSS */
+body {
+  background-color: #E5E5E5;
+  font-family: 'Open Sans'; 'sans-serif';
+  font-weight: lighter;
+  color: #AEAEAE;
+}
+
+
+table {
+  font-weight: lighter;
+}
+h1 {
+  color: #00AD7C;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  letter-spacing: -1px;
+  text-decoration: underline;
+}
+
+a {
+  color: #AEAEAE;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00AD7C;
+}
+
+.card-white {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #DBDBDB;
+  text-align: center;
+}
+
+#me {
+  width: 200px;
+  height: 200px;
+  margin: -7px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a .btn-green {
+  color: #00AD7C;
+  font-family: 'Open Sans'; 'sans-serif';
+  font-size: 15px;
+}
+
+a .btn-green:hover {
+  color: white;
+}
+
+.btn-green {
+  background-color: white;
+  border: 3px solid #00AD7C;
+  border-radius: 4px;
+  padding: 9px;
+  transition-duration: 0.3s;
+  box-shadow: 1px 1px 2px #CCCCCC;
+}
+
+.btn-green:hover {
+  background-color: #00AD7C;
+  color: white;
+}
+
+.btn-green:active {
+  transform: translateY(4px);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 20px 17px;
+  font-family: 'Open Sans'; 'sans-serif';
+}
+
+div h2 {
+  margin: 5px;
+}
+
+td h3 {
+  margin: 20px 0 -10px 0;
+}
+
+
+
+
+
+
