@@ -4,6 +4,8 @@ body {
   font-family: 'Open Sans'; 'sans-serif';
   font-weight: lighter;
   color: #AEAEAE;
+  background: url("https://unsplash.it/g/1400/900");
+  background-size: cover;
 }
 
 
@@ -32,11 +34,11 @@ a:hover {
 
 .card-white {
   background-color: white;
-  width: 500px;
+  width: 600px;
   padding: 20px;
   margin: 15px auto;
   border-radius: 5px;
-  box-shadow: 3px 3px 5px #DBDBDB;
+  box-shadow: 2px 2px 3px #C4C4C4;
   text-align: center;
 }
 
@@ -90,9 +92,10 @@ a .btn-green:hover {
 }
 
 .list-inline li {
-  display: inline;
+  display: inline-block;
   margin: 20px 17px;
   font-family: 'Open Sans'; 'sans-serif';
+  font-size: 22px;
 }
 
 div h2 {
@@ -103,6 +106,41 @@ td h3 {
   margin: 20px 0 -10px 0;
 }
 
+#sidebar {
+  background-color: #3A7563;
+  padding-left: 0;
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+}
+
+#sidebar ul {
+  padding-left: 0;
+  margin-top: 120px;
+}
+
+#sidebar i {
+  color: white;
+}
+
+#sidebar li {
+  list-style: none;
+  margin: 50px;
+}
+
+#page-content {
+  margin-left: 180px;
+
+}
+
+.fa {
+  display: inline-block;
+}
 
 
 
